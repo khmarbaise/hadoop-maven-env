@@ -10,6 +10,12 @@
     <version>0.1.0-SNAPSHOT</version>
 
     <name>First Hadoop MR</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <hadoop.version>0.21.0</hadoop.version>
+    </properties>
+
     <build>
         <plugins>
 
@@ -33,6 +39,7 @@
             </plugin>
         </plugins>
     </build>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.hadoop</groupId>
@@ -103,10 +110,5 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <hadoop.version>0.21.0</hadoop.version>
-    </properties>
 
 </project>

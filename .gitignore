@@ -2,3 +2,4 @@ target/*
 hadoop-0.21.0.tar.gz
 hadoop-0.21.0/*
 result*.log
+/target
